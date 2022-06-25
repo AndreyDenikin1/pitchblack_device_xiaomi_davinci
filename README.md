@@ -1,0 +1,2 @@
+# orangefox_device_xiaomi_davinci
+# pitchblack_device_xiaomi_davinci
