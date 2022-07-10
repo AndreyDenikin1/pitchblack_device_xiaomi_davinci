@@ -17,4 +17,5 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_davinci.mk
 
-COMMON_LUNCH_CHOICES := twrp_davinci-eng
+COMMON_LUNCH_CHOICES := \
+    twrp_davinci-eng

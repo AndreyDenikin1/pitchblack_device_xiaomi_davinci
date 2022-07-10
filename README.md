@@ -8,18 +8,15 @@ TWRP device tree for Xiaomi Redmi K20 / Mi 9T
 Works:
 
 - ADB
-- Decryption of /data
 - Screen brightness settings
 - Correct screenshot color
 - MTP
 - Flashing (opengapps, roms, images and so on)
 - Backup/Restore (Needs more testing)
 - USB OTG
-- Android Q Support
-
-TO-DO:
-
+- Android Sv2 Support
 - Vibration support
+- Decryption of /data (policy V1)
 
 ## Compile
 
@@ -40,7 +37,7 @@ Finally execute these:
 
 ```
 . build/envsetup.sh
-lunch twrp_davinci-eng
+lunch omni_davinci-eng
 mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true # Only if you use minimal twrp tree.
 ```
 
@@ -51,6 +48,7 @@ fastboot boot out/target/product/davinci/recovery.img
 ```
 
 ## Other Sources
+LineageOS kernel
 
-Precompiled stock kernel
 ## Thanks
+@mauronofrio
